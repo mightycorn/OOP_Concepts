@@ -26,6 +26,7 @@ public:
 	YouTubeChannel(string name, string ownerName) {
 		Name = name;
 		OwnerName = ownerName;
+		SubscribersCount = 0;
 	}
 
 	void GetInfo() {
